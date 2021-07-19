@@ -23,5 +23,22 @@
 }
 
 /* Positioning Classes */
+/* .flex-container{
+  display: flex;
+  flex-wrap: wrap;
+} */
 
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  /* width: 100%; */
+}
 
+.deal-item{
+  width: 32%;
+}
+
+.featured-item{
+  width: 65%;
+}
